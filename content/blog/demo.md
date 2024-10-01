@@ -1,7 +1,5 @@
 ---
-title: 2024-09-25-first
-date: 2024-09-25
-tags:
+title: 01 - Demo post
 ---
 
 En este post ejemplo queremos mostrar una Cita:

@@ -5,7 +5,18 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.OnlyFor(
+      { titles: ["Nousearch"] },
+      Component.RecentNotes({
+        showTags: false,
+        linkToMore: "/blog" as SimpleSlug,
+        limit: 1,
+        title: "Recent blog posts:",
+	filter: (f) => f.relativePath?.startsWith("blog/") ?? false,
+      }),
+    ),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/handorax/nousearch",
