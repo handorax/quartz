@@ -1,5 +1,6 @@
 ---
 title: 01 - Demo post
+date: 2024-09-01
 ---
 
 En este post ejemplo queremos mostrar una Cita:
@@ -22,14 +23,14 @@ Un iframe de desmos no interactivo:
 
 
 
-<iframe src="https://www.desmos.com/calculator/ocouu4910y?embed" width="740px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+<iframe src="https://www.desmos.com/calculator/ocouu4910y?embed" width="650px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
 
 ---
 
 Un iframe de desmos interactivo:
 
 
-<iframe src="https://www.desmos.com/calculator/ocouu4910y" width="740px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+<iframe src="https://www.desmos.com/calculator/ocouu4910y" width="650px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
 
 ---
 
