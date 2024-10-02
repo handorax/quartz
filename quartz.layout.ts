@@ -16,6 +16,19 @@ export const sharedPageComponents: SharedLayout = {
 	filter: (f) => f.relativePath?.startsWith("blog/") ?? false,
       }),
     ),
+    Component.Comments({
+        provider: 'giscus',
+        options: {
+          // from data-repo
+          repo: 'handorax/quartz',
+          // from data-repo-id
+          repoId: 'R_kgDOM5wYaw',
+          // from data-category
+          category: 'Announcements',
+          // from data-category-id
+          categoryId: 'DIC_kwDOM5wYa84Ci_zc',
+        }
+      }),
   ],
   footer: Component.Footer({
     links: {
